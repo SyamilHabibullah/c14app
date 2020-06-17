@@ -36,13 +36,13 @@ class Pages extends BaseController
             'alamat' => [
                 [
                     'tipe' => 'Rumah',
-                    'alamat' => 'Komplek Pemda Blok G.17',
-                    'kota' => 'Padang'
+                    'alamat' => 'Komplek XX Blok G.17',
+                    'kota' => 'Bandung'
                 ],
                 [
                     'tipe' => 'Kantor',
-                    'alamat' => 'Jurusan Sistem Informasi FTI UNAND',
-                    'kota' => 'Padang'
+                    'alamat' => 'Jurusan Sistem Informasi',
+                    'kota' => 'Bandung'
                 ]
             ]
         ];

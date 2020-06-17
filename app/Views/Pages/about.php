@@ -2,9 +2,9 @@
 <?= $this->section('content'); ?>
 <div class="jumbotron jumbotron-fluid">
     <div class="container text-center">
-        <img src="/img/fotoku.png" width="20%" class="rounded-circle img-thumbnail">
-        <h1 class="display-4">Dr. Wahyudi, MT</h1>
-        <p class="lead">Dosen Sistem Informasi UNAND</p>
+        <img src="/img/profile2.png" width="20%" class="rounded-circle img-thumbnail">
+        <h1 class="display-4">Dr. W MT</h1>
+        <p class="lead">Dosen Sistem Informasi </p>
         <!-- <img src="<?php echo base_url('/img/profile2.png'); ?>"> -->
     </div>
 </div>
