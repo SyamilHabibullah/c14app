@@ -5,6 +5,7 @@
         <div class="row pt-4">
             <div class="col text-center pt-4">
                 <h1>Contact Us</h1>
+                <p>kontak dan hubungi saya</p>
 
             </div>
         </div>
