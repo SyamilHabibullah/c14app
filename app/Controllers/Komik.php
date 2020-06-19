@@ -13,10 +13,11 @@ class Komik extends BaseController
     }
     public function index()
     {
-        $komik = $this->komikModel->findAll();
+        // $komik = $this->komikModel->findAll(); //cara 1
         $data = [
             'title' => 'Daftar Komik',
-            'komik' => $komik
+            // 'komik' => $komik  //cara 1
+            'komik' => $this->komikModel->getKomik()  //cara 2 pakai function getKomik di model->komikModel
 
         ];
         //cara konect db tanpa model
@@ -30,5 +31,16 @@ class Komik extends BaseController
 
 
         return view('Komik/index', $data);
+    }
+
+    public function detail($slug)
+    {
+        // $komik = $this->komikModel->where(['slug' => $slug])->first();
+
+        $data = [
+            'title' => 'Detail Komik',
+            'komik' => $this->komikModel->getKomik($slug)
+        ];
+        return view('Komik/detail', $data);
     }
 }

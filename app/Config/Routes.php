@@ -37,12 +37,13 @@ $routes->get('/', 'Pages::index');
 // 	echo "hello world";
 // });
 //$routes->get('pages/index', 'Pages::index');
-$routes->get('pages/about', 'Pages::about');
-$routes->get('pages/portfolio', 'Pages::portfolio');
-$routes->get('pages/contact', 'Pages::contact');
-$routes->get('/coba/(:any)', 'Coba::about/$1');
+// $routes->get('pages/about', 'Pages::about');
+// $routes->get('pages/portfolio', 'Pages::portfolio');
+// $routes->get('pages/contact', 'Pages::contact');
+// $routes->get('/coba/(:any)', 'Coba::about/$1');
 
-$routes->get('/user', 'Admin\User::index');
+// $routes->get('/user', 'Admin\User::index');
+$routes->get('komik/(:segment)', 'Komik::detail/$1');
 
 /**
  * --------------------------------------------------------------------
